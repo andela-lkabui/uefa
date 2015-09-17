@@ -1,7 +1,7 @@
 {
-	"name": "championsleague",
-	"main": "index.js",
-	"dependencies": {
-	
-	}
+  "name": "championsleague",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^4.1.7"
+  }
 }
