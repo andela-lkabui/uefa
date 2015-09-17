@@ -4,7 +4,10 @@ var express = require("express"),
 		router = express.Router();
 
 var mongoose = require("mongoose"),
-		Beer = require("./models/team");
+		Beer = require("./models/team"),
+		bodyParser = require("body-parser");
+
+app.use(bodyParser.urlencoded({ extended: true}));
 
 mongoose.connect("mongodb://admin:Propan3@ds042698.mongolab.com:42698/champions_league");
 

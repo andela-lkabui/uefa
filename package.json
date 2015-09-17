@@ -2,6 +2,7 @@
   "name": "championsleague",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.14.0",
     "mongoose": "^4.1.7"
   }
 }
